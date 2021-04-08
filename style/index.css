@@ -114,7 +114,6 @@ html {
 }
 * {
   font-family: "Playfair Display", serif;
-  letter-spacing: 0.2rem;
 }
 h1,
 h2,
@@ -123,6 +122,7 @@ h4,
 h5,
 button {
   font-family: "Oswald", sans-serif;
+  letter-spacing: 0.1rem;
 }
 a {
   text-decoration: none;
@@ -136,7 +136,6 @@ button {
   border-radius: 2px;
   border: 2px solid rgba(253, 29, 29, 1);
   background-color: #fff;
-  padding: 2% 16%;
 }
 
 /* Header  */
@@ -184,6 +183,59 @@ section.top {
   margin: 0 1% 0 5%;
 }
 
+.top-copy > *:not(:last-child) {
+  margin-bottom: 2%;
+}
+
 .top-copy h2 {
   font-size: 3rem;
+}
+
+.top-copy button {
+  font-size: 1.25rem;
+  padding: 0.5% 2%;
+}
+
+.top-copy p {
+  font-size: 2rem;
+  width: 50%;
+}
+
+/* Projects Section */
+section.projects-section {
+  padding: 1%;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.projects-container > div {
+  margin-bottom: 2%;
+}
+
+.projects-container h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 2% 0;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(131, 58, 180, 1);
+  text-align: center;
+  padding: 5%;
+}
+
+footer h2 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 2%;
+}
+
+footer button {
+  font-size: 1.25rem;
+  padding: 1% 4%;
 }
